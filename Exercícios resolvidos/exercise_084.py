@@ -2,3 +2,5 @@
 # A) Quantas pessoas foram cadastradas.
 # B) Uma listagem com as pessoas mais pesadas.
 # C) Uma listagem com as pessoas mais leves.
+
+# print('Bem-vindo ao programa que exibe várias informações sobre o peso de várias pessoas!')

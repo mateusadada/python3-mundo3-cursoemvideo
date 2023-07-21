@@ -6,3 +6,5 @@
 # - A média da turma
 # - A situação (opcional)
 # Adicione também as docstrings dessa função para consulta pelo desenvolvedor.
+
+# print('Bem-vindo ao programa de cálculo que exibe várias informações das notas de um aluno!')

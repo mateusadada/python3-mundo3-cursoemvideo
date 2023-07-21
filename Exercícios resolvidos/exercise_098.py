@@ -3,3 +3,5 @@
 # a) de 1 até 10, a cada 1
 # b) de 10 até 0, a cada 2
 # c) uma contagem personalizada
+
+# print('Bem-vindo ao programa de cálculo de contagem!')

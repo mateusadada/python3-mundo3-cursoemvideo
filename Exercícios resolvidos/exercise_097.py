@@ -7,3 +7,5 @@
 # ~~~~~~~~~
 #  Olá, Mundo!
 # ~~~~~~~~~
+
+# print('Bem-vindo ao programa que exibe uma mensagem com tamanho adaptável!')

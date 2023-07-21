@@ -4,3 +4,5 @@
 # b) Os últimos 4 colocados.
 # c) Times em ordem alfabética.
 # d) Em que posição está o time da Chapecoense.
+
+# print('Bem-vindo ao programa que exibe várias informações a partir da colocação do Campeonato Brasileiro!')

@@ -4,3 +4,5 @@
 # B) A média de idade
 # C) Uma lista com as mulheres
 # D) Uma lista de pessoas com idade acima da média
+
+# print('Bem-vindo ao programa que exibe várias informações a partir do nome, sexo e idade de várias pessoas!')

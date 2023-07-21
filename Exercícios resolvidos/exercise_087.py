@@ -2,3 +2,5 @@
 # A) A soma de todos os valores pares digitados.
 # B) A soma dos valores da terceira coluna.
 # C) O maior valor da segunda linha.
+
+# print('Bem-vindo ao programa exibe várias informações a partir de uma matriz 3x3!')

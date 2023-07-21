@@ -2,3 +2,5 @@
 # A) Quantas vezes apareceu o valor 9.
 # B) Em que posição foi digitado o primeiro valor 3.
 # C) Quais foram os números pares.
+
+# print('Bem-vindo ao programa que exibe várias informações a partir de quatro números informados!')
