@@ -3,22 +3,14 @@
 
 from random import randint
 
-maior = menor = 0
-
 print('Bem-vindo ao programa que gera cinco números aleatórios e exibe o maior e o menor!')
 
 numeros = (randint(0, 100), randint(0, 100), randint(0, 100), randint(0, 100), randint(0, 100))
 
-print(f'Números sorteados: \033[33m{numeros}\033[m')
+print(f'\nNúmeros sorteados: \033[33m', end='')
+for worth in numeros:
+    print(worth, end=' ')
 
-for index in range(5):
-    if index == 0:
-        maior = menor = numeros[index]
-    else:
-        if numeros[index] > maior:
-            maior = numeros[index]
-        if numeros[index] < menor:
-            menor = numeros[index]
+print(f'\n\033[mMaior: \033[33m{max(numeros)}\033[m'
+      f'\nMenor: \033[33m{min(numeros)}\033[m')
 
-print(f'\nMaior: \033[33m{maior}\033[m'
-      f'\nMenor: \033[33m{menor}\033[m')
