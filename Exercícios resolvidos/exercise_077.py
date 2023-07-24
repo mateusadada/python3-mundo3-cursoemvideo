@@ -7,10 +7,10 @@ palavras = ('crie', 'um', 'programa', 'que', 'tenha', 'uma', 'tupla', 'com', 'va
 vogais = 'aeiou'
 
 for word in palavras:
-    print(f'\033[33m"{word}"\033[m tem ', end='')
+    print(f'\033[33m{word.upper()}\033[m tem ', end='')
 
-    for worth in vogais:
-        if worth in word:
+    for worth in word:
+        if worth.lower() in 'aeiou':
             print(f'\033[33m{worth}\033[m', end=' ')
 
     print()
