@@ -13,4 +13,3 @@ for worth in numeros:
 
 print(f'\n\033[mMaior: \033[33m{max(numeros)}\033[m'
       f'\nMenor: \033[33m{min(numeros)}\033[m')
-
