@@ -4,7 +4,7 @@
 
 lista = []
 
-print('Bem-vindo ao programa exibe os números digitados em ordem crescente!\n')
+print('Bem-vindo ao programa exibe os números únicos digitados em ordem crescente!\n')
 
 while True:
     numero = int(input('Digite um número inteiro (999 p/ sair): '))
