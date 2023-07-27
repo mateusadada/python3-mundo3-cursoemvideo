@@ -11,13 +11,16 @@ for index in range(5):
     # adiciona o 1º valor na lista
     if len(lista) < 1:
         lista.append(numero)
+        print('Adicionado no final da lista...')
     else:
         # verifica se tem algum valor menor e encaixa antes
         for index2 in range(len(lista)):
             if numero < lista[index2]:
                 lista.insert(index2, numero)
+                print(f'Adicionado na posição {index2 + 1} da lista...')
                 break
         else:
             lista.append(numero)
+            print('Adicionado no final da lista...')
 
 print(f'\nOs valores digitados ordenados são \033[33m{lista}')
