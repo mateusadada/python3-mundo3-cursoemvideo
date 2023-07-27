@@ -8,8 +8,8 @@ print('Bem-vindo ao programa que recebe e exibe cinco valores ordenados!')
 for index in range(5):
     numero = int(input(f'{index + 1}º número: '))
 
-    # adiciona o 1º valor na lista
-    if len(lista) < 1:
+    # adiciona o 1º valor na lista ou na última posição
+    if index == 0 or numero > lista[-1]:
         lista.append(numero)
         print('Adicionado no final da lista...')
     else:
@@ -19,8 +19,5 @@ for index in range(5):
                 lista.insert(index2, numero)
                 print(f'Adicionado na posição {index2 + 1} da lista...')
                 break
-        else:
-            lista.append(numero)
-            print('Adicionado no final da lista...')
 
 print(f'\nOs valores digitados ordenados são \033[33m{lista}')
