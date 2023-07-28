@@ -5,7 +5,7 @@
 
 lista_nomes_e_pesos = list()
 lista_auxiliar = list()
-contador_de_pessoas = maior_peso = menor_peso = 0
+maior_peso = menor_peso = 0
 
 print('Bem-vindo ao programa que exibe várias informações a partir do peso de várias pessoas!', end='')
 
@@ -14,17 +14,13 @@ while True:
     lista_auxiliar.append(str(input('\nDigite o nome: ')).strip())
     lista_auxiliar.append(float(input('Peso: ')))
 
-    # opção A
-    contador_de_pessoas += 1
-
     # opção B e C
-    if contador_de_pessoas == 1:
+    if len(lista_nomes_e_pesos) == 0:
         maior_peso = lista_auxiliar[1]
         menor_peso = lista_auxiliar[1]
 
     elif lista_auxiliar[1] > maior_peso:
         maior_peso = lista_auxiliar[1]
-
     elif lista_auxiliar[1] < menor_peso:
         menor_peso = lista_auxiliar[1]
 
@@ -49,16 +45,16 @@ while True:
 
 # print das informações solicitadas
 # opção A
-print(f'\nForam digitadas \033[33m{contador_de_pessoas}\033[m pessoa(s).')
+print(f'\nForam digitadas \033[33m{len(lista_nomes_e_pesos)}\033[m pessoa(s).')
 
 # opção B
 print(f'Listagem das pessoas mais pesadas com \033[33m{maior_peso:.1f} kg: ', end='')
 for pessoa in lista_nomes_e_pesos:
     if pessoa[1] == maior_peso:
-        print(pessoa[0], end=' ')
+        print(f'[{pessoa[0]}]', end=' ')
 
 # opção C
 print(f'\n\033[mListagem das pessoas mais leves com \033[33m{menor_peso:.1f} kg: ', end='')
 for pessoa in lista_nomes_e_pesos:
     if pessoa[1] == menor_peso:
-        print(pessoa[0], end=' ')
+        print(f'[{pessoa[0]}]', end=' ')
