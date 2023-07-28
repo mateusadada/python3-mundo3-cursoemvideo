@@ -20,6 +20,6 @@ print(f'\nQuantos números foram digitados: \033[33m{len(lista)}\033[m'
       f'\n\033[33m{sorted(lista, reverse=True)}\033[m'
       f'\nO valor 5 foi digitado? \033[33m', end='')
 if 5 in lista:
-    print(f'Sim, na posição {lista.index(5) + 1}')
+    print(f'Sim, na posição {lista.index(5) + 1}.')
 else:
-    print('Não')
+    print('Não.')
