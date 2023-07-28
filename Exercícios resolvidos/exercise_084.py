@@ -5,7 +5,7 @@
 
 lista_nomes_e_pesos = list()
 lista_auxiliar = list()
-contador_de_pessoas = 0
+contador_de_pessoas = maior_peso = menor_peso = 0
 
 print('Bem-vindo ao programa que exibe várias informações a partir do peso de várias pessoas!', end='')
 
@@ -16,6 +16,17 @@ while True:
 
     # opção A
     contador_de_pessoas += 1
+
+    # opção B e C
+    if contador_de_pessoas == 1:
+        maior_peso = lista_auxiliar[1]
+        menor_peso = lista_auxiliar[1]
+
+    elif lista_auxiliar[1] > maior_peso:
+        maior_peso = lista_auxiliar[1]
+
+    elif lista_auxiliar[1] < menor_peso:
+        menor_peso = lista_auxiliar[1]
 
     # adicionar na lista principal de maneira independente
     lista_nomes_e_pesos.append(lista_auxiliar[:])
@@ -32,22 +43,22 @@ while True:
         else:
             break
 
-    # sair do while True
+    # sair do main loop
     if continuar == 'N':
         break
 
 # print das informações solicitadas
 # opção A
-print(f'\nForam cadastradas \033[33m{contador_de_pessoas}\033[m pessoa(s).')
+print(f'\nForam digitadas \033[33m{contador_de_pessoas}\033[m pessoa(s).')
 
 # opção B
-print(f'Listagem das pessoas mais pesadas com \033[33m{max(lista_nomes_e_pesos)[1]} kg: ', end='')
+print(f'Listagem das pessoas mais pesadas com \033[33m{maior_peso:.1f} kg: ', end='')
 for pessoa in lista_nomes_e_pesos:
-    if pessoa[1] == max(lista_nomes_e_pesos)[1]:
-        print(pessoa[0], end='')
+    if pessoa[1] == maior_peso:
+        print(pessoa[0], end=' ')
 
 # opção C
-print(f'\n\033[mListagem das pessoas mais leves com \033[33m{min(lista_nomes_e_pesos)[1]} kg: ', end='')
+print(f'\n\033[mListagem das pessoas mais leves com \033[33m{menor_peso:.1f} kg: ', end='')
 for pessoa in lista_nomes_e_pesos:
-    if pessoa[1] == min(lista_nomes_e_pesos)[1]:
-        print(pessoa[0], end='')
+    if pessoa[1] == menor_peso:
+        print(pessoa[0], end=' ')
