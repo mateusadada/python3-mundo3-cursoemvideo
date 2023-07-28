@@ -6,8 +6,7 @@ parenteses_abertos = parenteses_fechados = 0
 print('Bem-vindo ao programa que verifica se uma frase está com os parênteses na ordem correta!')
 
 while True:
-    # expressao = str(input('Digite uma expressão matemática: ')).strip()
-    expressao = '((a + b()x+y))'
+    expressao = str(input('Digite uma expressão matemática: ')).strip()
 
     if expressao.count('(') + expressao.count(')') < 1:
         print('\033[31mEntrada inválida! A expressão deve conter parênteses.\033[m')
