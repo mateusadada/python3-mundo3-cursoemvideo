@@ -1,7 +1,7 @@
 # Crie um programa onde o usuário possa digitar sete valores numéricos e cadastre-os em uma lista única que mantenha
 # separados os valores pares e ímpares. No final, mostre os valores pares e ímpares em ordem crescente.
 
-lista_total_numeros = [], []
+lista_total_numeros = [[], []]
 
 print('Bem-vindo ao programa que exibe pares e ímpares de 7 valores inteiros em ordem crescente!')
 
