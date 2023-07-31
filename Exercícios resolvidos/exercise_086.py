@@ -6,16 +6,13 @@ matriz = [[], [], []]
 print('Bem-vindo ao programa que recebe os valores e exibe uma matriz 3x3!')
 
 # preencher a matriz
-for index in range(3):
-    for index2 in range(3):
-        numero = int(input(f'Digite um número para [{index + 1}, {index2 + 1}]: '))
-        matriz[index].append(numero)
+for linha in range(3):
+    for coluna in range(3):
+        matriz[linha].append(int(input(f'Digite um número para [{linha + 1}, {coluna + 1}]: ')))
 
 # exibir a matriz
-print(f'\n\033[33m*** MATRIZ 3x3 ***\033[m', end='')
+print(f'\n\033[33m*** MATRIZ 3x3 ***\033[m')
 for posicao in matriz:
+    for linha in range(3):
+        print(f'[\033[33m{posicao[linha]:^5}\033[m] ', end='')
     print()
-    for index in range(3):
-        print(f'[\033[33m{posicao[index]:^5}\033[m] ', end='')
-
-print()
