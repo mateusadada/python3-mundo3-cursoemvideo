@@ -22,11 +22,8 @@ for index in range(quantidade_de_palpites):
     jogos.append([])
 
     # adiciona 6 números aleatórios na lista composta
-    jogos[index].append(randint(1, 60))
-    jogos[index].append(randint(1, 60))
-    jogos[index].append(randint(1, 60))
-    jogos[index].append(randint(1, 60))
-    jogos[index].append(randint(1, 60))
+    for count in range(6):
+        jogos[index].append(randint(1, 60))
 
     # exibe os palpites
     sleep(0.5)
