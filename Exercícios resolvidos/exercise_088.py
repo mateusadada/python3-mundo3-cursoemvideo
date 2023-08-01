@@ -2,16 +2,32 @@
 # gerados e vai sortear 6 números entre 1 e 60 para cada jogo, cadastrando tudo em uma lista composta.
 
 from random import randint
+from time import sleep
 
-# jogos = [[xxxxxx], [xxxxxx], ...]
+print('Bem-vindo ao programa que cria vários palpites de 6 números entre 1 e 60!')
 
-# print('Bem-vindo ao programa que cria vários palpites de 6 números entre 1 e 60!')
+# quantidade de palpites
+while True:
+    quantidade_de_palpites = int(input('Digite a quantidade de palpites: '))
 
-# colocar num while True
-quantidade_de_palpites = int(input('Digite a quantidade de palpites: '))
+    if quantidade_de_palpites < 1:
+        print('\033[31mEntrada inválida! Digite um número positivo. Tente novamente.\033[m')
+    else:
+        break
 
-# cria a lista vazia
-jogos = list(range(quantidade_de_palpites))
+print(f'\n*** GERANDO OS {quantidade_de_palpites} PALPITES ***')
+# cria a lista composta vazia
+jogos = []
+for index in range(quantidade_de_palpites):
+    jogos.append([])
 
-for index in range(6):
+    # adiciona 6 números aleatórios na lista composta
+    jogos[index].append(randint(1, 60))
+    jogos[index].append(randint(1, 60))
+    jogos[index].append(randint(1, 60))
+    jogos[index].append(randint(1, 60))
+    jogos[index].append(randint(1, 60))
 
+    # exibe os palpites
+    sleep(0.5)
+    print(f'{index + 1}º jogo = \033[33m{jogos[index]}\033[m')
