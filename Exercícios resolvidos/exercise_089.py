@@ -44,8 +44,8 @@ while True:
             print('\033[31mEntrada inválida. Digite um número válido. Tente novamente.\033[m', end='')
         else:
             print(f'Nome: \033[33m{dados_alunos[ver_notas][0]}\033[m (cód. {ver_notas})'
-                  f'\n1º nota: \033[33m{dados_alunos[ver_notas][1]}\033[m'
-                  f'\n2º nota: \033[33m{dados_alunos[ver_notas][2]}\033[m')
+                  f'\n1º nota: \033[33m{dados_alunos[ver_notas][1]:.1f}\033[m'
+                  f'\n2º nota: \033[33m{dados_alunos[ver_notas][2]:.1f}\033[m')
             break
 
     # validação da continuação
