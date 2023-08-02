@@ -38,7 +38,7 @@ print('-' * 30)
 while True:
     # validação para mostrar alunos válidos
     while True:
-        ver_notas = int(input('\nDeseja ver as notas de qual aluno (cód.)? '))
+        ver_notas = int(input(f'\nDeseja ver as notas de qual aluno (cód. 0 a {quantidade - 1})? '))
 
         if ver_notas < 0 or ver_notas >= quantidade:
             print('\033[31mEntrada inválida. Digite um número válido. Tente novamente.\033[m', end='')
