@@ -21,10 +21,14 @@ jogos = []
 for index in range(quantidade_de_palpites):
     jogos.append([])
 
-    # adiciona 6 números aleatórios na lista composta
+    # adiciona 6 números aleatórios únicos na lista composta
     for count in range(6):
-        jogos[index].append(randint(1, 60))
+        while True:
+            sorteio = randint(1, 60)
+            if sorteio not in jogos[index]:
+                jogos[index].append(sorteio)
+                break
 
     # exibe os palpites
     sleep(0.5)
-    print(f'{index + 1}º jogo = \033[33m{jogos[index]}\033[m')
+    print(f'{index + 1}º jogo = \033[33m{sorted(jogos[index])}\033[m')
