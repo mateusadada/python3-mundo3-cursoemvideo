@@ -15,14 +15,12 @@ while True:
 # cadastro
 dados_alunos = []
 for index in range(quantidade):
-    # cria um espaço vazio na lista composta
-    dados_alunos.append([])
-
     # recebe os dados e adiciona na lista composta
-    dados_alunos[index].append(str(input(f'\nNome do {index + 1}º aluno: ')).strip().upper())
-    dados_alunos[index].append(float(input('1º nota: ')))
-    dados_alunos[index].append(float(input('2º nota: ')))
-    dados_alunos[index].append(float((dados_alunos[index][1] + dados_alunos[index][2]) / 2))
+    nome = str(input(f'\nNome do {index + 1}º aluno: ')).strip().upper()
+    nota1 = float(input('1º nota: '))
+    nota2 = float(input('2º nota: '))
+    media = (nota1 + nota2) / 2
+    dados_alunos.append([nome, nota1, nota2, media])
 
 # exibir o boletim
 print(f'\n\033[33m *** BOLETIM DOS {quantidade} ALUNOS ***\033[m')
