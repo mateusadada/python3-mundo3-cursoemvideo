@@ -20,4 +20,9 @@ else:
 dados_aluno['situacao'] = situacao
 
 # exibe o conteúdo
-print(f'\nExibindo a estrutura do dicionário: \033[33m{dados_aluno}')
+print(f'\nExibindo a estrutura do dicionário: \033[33m{dados_aluno}\033[m')
+
+# exibe o conteúdo detalhado
+print(f'\nExibindo a estrutura organizada:')
+for key, value in dados_aluno.items():
+    print(f'- {key} é \033[33m{value}\033[m')
