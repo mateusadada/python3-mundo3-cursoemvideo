@@ -7,17 +7,15 @@ print('Bem-vindo ao programa que exibe o nome e a média de um aluno guardado em
 
 # lê os dados
 dados_aluno['nome'] = str(input('Digite o nome: ')).strip()
-dados_aluno['media'] = float(input('Digite a média: '))
+dados_aluno['media'] = float(input(f'A média de {dados_aluno["nome"]}: '))
 
 # cálculo da situação
 if dados_aluno['media'] >= 7:
-    situacao = 'Aprovado'
+    dados_aluno['situacao'] = 'Aprovado'
 elif dados_aluno['media'] < 5:
-    situacao = 'Reprovado'
+    dados_aluno['situacao'] = 'Reprovado'
 else:
-    situacao = 'Recuperação'
-
-dados_aluno['situacao'] = situacao
+    dados_aluno['situacao'] = 'Recuperação'
 
 # exibe o conteúdo
 print(f'\nExibindo a estrutura do dicionário: \033[33m{dados_aluno}\033[m')
