@@ -20,11 +20,13 @@ if CTPS != 0:
 
 # exibe os dados
 print('\n*** Exibindo as informações do trabalhador ***'
-      f'\nNome: {trabalhador["nome"]}'
-      f'\nAno de nascimento: {trabalhador["ano_de_nascimento"]}'
-      f'\nIdade: {trabalhador["idade"]}')
+      f'\nNome: \033[33m{trabalhador["nome"]}\033[m'
+      f'\nAno de nascimento: \033[33m{trabalhador["ano_de_nascimento"]}\033[m'
+      f'\nIdade: \033[33m{trabalhador["idade"]}\033[m')
 if CTPS != 0:
-    print(f'CTPS: {trabalhador["CTPS"]}'
-          f'\nAno de contratação: {trabalhador["ano_de_contratacao"]}'
-          f'\nSalário: R$ {trabalhador["salario"]:.2f}'
-          f'\nIrá se aposentar com XX anos no ano de XX')
+    tempo_trabalhado = datetime.today().year - trabalhador['ano_de_contratacao']
+    print(f'CTPS: \033[33m{trabalhador["CTPS"]}\033[m'
+          f'\nAno de contratação: \033[33m{trabalhador["ano_de_contratacao"]}\033[m'
+          f'\nSalário: \033[33mR$ {trabalhador["salario"]:.2f}\033[m'
+          f'\nIrá se aposentar com \033[33m{35 - tempo_trabalhado + trabalhador["idade"]} anos em '
+          f'{trabalhador["ano_de_contratacao"] + 35}\033[m')
