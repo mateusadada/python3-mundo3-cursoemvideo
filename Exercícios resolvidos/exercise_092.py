@@ -12,9 +12,8 @@ print('Bem-vindo ao programa de cálculo de quantos anos a pessoa vai se aposent
 trabalhador['nome'] = str(input('Digite o nome: ')).strip().upper()
 trabalhador['ano_de_nascimento'] = int(input('Ano de nascimento: '))
 trabalhador['idade'] = int(datetime.today().year - trabalhador['ano_de_nascimento'])
-CTPS = int(input('Número do CTPS (0 p/ vazio): '))
-if CTPS != 0:
-    trabalhador['CTPS'] = CTPS
+trabalhador['CTPS'] = int(input('Número do CTPS (0 p/ vazio): '))
+if trabalhador['CTPS'] != 0:
     trabalhador['ano_de_contratacao'] = int(input('Ano de contratação: '))
     trabalhador['salario'] = float(input('Salário: R$ '))
 
@@ -23,7 +22,7 @@ print('\n*** Exibindo as informações do trabalhador ***'
       f'\nNome: \033[33m{trabalhador["nome"]}\033[m'
       f'\nAno de nascimento: \033[33m{trabalhador["ano_de_nascimento"]}\033[m'
       f'\nIdade: \033[33m{trabalhador["idade"]}\033[m')
-if CTPS != 0:
+if trabalhador['CTPS'] != 0:
     tempo_trabalhado = datetime.today().year - trabalhador['ano_de_contratacao']
     print(f'CTPS: \033[33m{trabalhador["CTPS"]}\033[m'
           f'\nAno de contratação: \033[33m{trabalhador["ano_de_contratacao"]}\033[m'
