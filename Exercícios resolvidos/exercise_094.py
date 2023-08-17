@@ -8,7 +8,7 @@
 lista_das_pessoas = list()
 total_idade = media_idade = 0
 
-# print('Bem-vindo ao programa que exibe várias informações a partir do nome, sexo e idade de várias pessoas!')
+print('Bem-vindo ao programa que exibe várias informações a partir do nome, sexo e idade de várias pessoas!', end='')
 
 # recebe os dados e organiza na lista
 while True:
@@ -49,20 +49,26 @@ while True:
 
 # exibir os dados detalhados
 # opção A
-print('\n*** EXIBINDO OS DADOS DETALHADOS ***'
-      f'\nA) Foram cadastradas {len(lista_das_pessoas)} pessoas')
+print('\n\033[33m*** EXIBINDO OS DADOS DETALHADOS ***\033[m'
+      f'\nA) Foram cadastradas \033[33m{len(lista_das_pessoas)} pessoas\033[m')
 
 # opção B
 for items in lista_das_pessoas:
     total_idade += items['idade']
 media_idade = total_idade / len(lista_das_pessoas)
-print(f'B) A média de idade é de {media_idade:.1f} anos')
+print(f'B) A média de idade é de \033[33m{media_idade:.1f} anos\033[m')
 
 # opção C
-print('C) As mulheres cadastradas foram ', end='')
+print('C) As mulheres cadastradas foram \033[33m', end='')
 for items in lista_das_pessoas:
     if items['sexo'] == 'F':
         print(items['nome'], end=' ')
 print()
 
 # opção D
+print('\033[mD) Lista das pessoas que estão acima da média:')
+for items in lista_das_pessoas:
+    if items['idade'] > media_idade:
+        print(f'\033[33m    Nome = {items["nome"]}; sexo = {items["sexo"]}; idade = {items["idade"]};')
+
+print('\n\033[mEncerrando o programa. Até logo!')
