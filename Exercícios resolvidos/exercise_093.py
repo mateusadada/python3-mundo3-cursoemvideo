@@ -4,7 +4,6 @@
 
 dados = dict()
 gols = list()
-total_gols = 0
 
 print('Bem-vindo ao programa de cálculo do gerenciamento de um jogador de futebol!')
 
@@ -13,9 +12,8 @@ dados['nome'] = str(input('Digite o nome do jogador: ')).strip().upper()
 quantidade_partidas = int(input('Quantidade de partidas: '))
 for index in range(quantidade_partidas):
     gols.append(int(input(f'Gols do {index + 1}º jogo: ')))
-    total_gols += gols[index]
-dados['gols_por_partida'] = gols
-dados['total_gols'] = total_gols
+dados['gols_por_partida'] = gols[:]
+dados['total_gols'] = sum(gols)
 
 # exibe os dados detalhadamente
 print('=' * 30)
