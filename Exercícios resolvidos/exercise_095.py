@@ -33,7 +33,6 @@ while True:
         print()
         break
 
-
 # exibe os dados detalhadamente
 print('=' * 50)
 print('Cód Nome           Gols         Total')
