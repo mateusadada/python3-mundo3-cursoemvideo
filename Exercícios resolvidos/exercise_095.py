@@ -45,8 +45,11 @@ print('=' * 50)
 while mostrar_jogador != 999:
     mostrar_jogador = int(input('\nMostrar os dados de qual jogador (999 p/ parar): '))
     if mostrar_jogador != 999:
-        print(f'-- LEVANTAMENTO DO JOGADOR \033[33m{lista_jogadores[mostrar_jogador]["nome"]}\033[m --')
-        for index, value in enumerate(lista_jogadores[mostrar_jogador]["gols_por_partida"]):
-            print(f'  - {index + 1}º jogo: \033[33m{value} gols\033[m')
+        if mostrar_jogador < 0 or mostrar_jogador >= len(lista_jogadores):
+            print('\033[31mEntrada inválida! Não existe o código do jogador. Tente novamente.\033[m')
+        else:
+            print(f'-- LEVANTAMENTO DO JOGADOR \033[33m{lista_jogadores[mostrar_jogador]["nome"]}\033[m --')
+            for index, value in enumerate(lista_jogadores[mostrar_jogador]["gols_por_partida"]):
+                print(f'  - {index + 1}º jogo: \033[33m{value} gols\033[m')
     else:
         print('\nSaindo do programa. Até logo!')
