@@ -7,5 +7,5 @@ def maior(* numero):
 
 print('Bem-vindo ao programa de cálculo do maior número!')
 
-print('\nNúmeros: 2, 5, 9, 2, 45, 7, 5, 35, 45, -87, 54'
+print('\nNúmeros: 2, 5, 9, 2, 45, 7, 5, 35, 45, -87 e 54'
       f'\nMaior: \033[33m{maior(2, 5, 9, 2, 45, 7, 5, 35, 45, -87, 54)}')
