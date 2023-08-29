@@ -8,4 +8,12 @@
 #  Olá, Mundo!
 # ~~~~~~~~~
 
-# print('Bem-vindo ao programa que exibe uma mensagem com tamanho adaptável!')
+def escreva(texto):
+    print()
+    print('~' * len(texto))
+    print(texto)
+    print('~' * len(texto))
+
+
+print('Bem-vindo ao programa que exibe uma mensagem com tamanho adaptável!')
+escreva(str(input('Digite um texto qualquer: ')))
