@@ -8,7 +8,8 @@ def calcular_area_retangulo(largura, comprimento):
 
 print('Bem-vindo ao programa de cálculo da área de um terreno!')
 
-largura = float(input('Digite a largura: '))
-comprimento = float(input('Digite o comprimento: '))
+largura = float(input('Digite a largura (m): '))
+comprimento = float(input('Digite o comprimento (m): '))
 
-print(f'\nA área do terreno é \033[33m{calcular_area_retangulo(largura, comprimento):.2f} m²')
+print(f'\nA área de um terreno {largura:.1f} x {comprimento:.1f} é de '
+      f'\033[33m{calcular_area_retangulo(largura, comprimento):.1f} m².')
