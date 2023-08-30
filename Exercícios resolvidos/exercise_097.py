@@ -8,12 +8,13 @@
 #  Olá, Mundo!
 # ~~~~~~~~~
 
-def escreva(texto):
+def write(text):
     print()
-    print('~' * len(texto))
-    print(texto)
-    print('~' * len(texto))
+    print('~' * (len(text) + 4))
+    print(f'  {text}')
+    print('~' * (len(text) + 4))
 
 
 print('Bem-vindo ao programa que exibe uma mensagem com tamanho adaptável!')
-escreva(str(input('Digite um texto qualquer: ')))
+
+write(str(input('Digite um texto qualquer: ')))
