@@ -10,9 +10,10 @@
 
 def write(text):
     print()
-    print('~' * (len(text) + 4))
+    size = len(text) + 4
+    print('~' * size)
     print(f'  {text}')
-    print('~' * (len(text) + 4))
+    print('~' * size)
 
 
 print('Bem-vindo ao programa que exibe uma mensagem com tamanho adaptável!')
