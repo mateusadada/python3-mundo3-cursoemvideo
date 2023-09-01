@@ -6,28 +6,28 @@ from random import randint
 from time import sleep
 
 
-def raffle():
+def raffle(numbers_list):
     print('Sorteando 5 valores e colocando na lista: \033[33m', end='')
     for index in range(5):
-        sleep(0.5)
-        numbers.append(randint(1, 9))
-        print(numbers[-1], end=' ')
-    sleep(0.5)
+        sleep(0.3)
+        numbers_list.append(randint(1, 10))
+        print(numbers_list[-1], end=' ')
+    sleep(0.3)
     print('PRONTO!\033[m')
-    sum_of_pairs()
 
 
-def sum_of_pairs():
+def sum_of_pairs(numbers_list):
     sum_pairs = 0
-    for value in numbers:
+    for value in numbers_list:
         if value % 2 == 0:
             sum_pairs += value
 
-    sleep(0.5)
-    print(f'Somando os valores pares de \033[33m{numbers}\033[m temos \033[33m{sum_pairs}\033[m.')
+    sleep(0.3)
+    print(f'Somando os valores pares de \033[33m{numbers_list}\033[m temos \033[33m{sum_pairs}\033[m.')
 
 
 # main program
 print('Bem-vindo ao programa de cálculo da soma de 5 números pares aleatórios!\n')
 numbers = list()
-raffle()
+raffle(numbers)
+sum_of_pairs(numbers)
