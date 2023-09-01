@@ -27,6 +27,7 @@ def sum_of_pairs():
     print(f'Somando os valores pares de \033[33m{numbers}\033[m temos \033[33m{sum_pairs}\033[m.')
 
 
+# main program
 print('Bem-vindo ao programa de cálculo da soma de 5 números pares aleatórios!\n')
 numbers = list()
 raffle()
