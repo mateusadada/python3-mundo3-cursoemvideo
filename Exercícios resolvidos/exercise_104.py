@@ -3,6 +3,11 @@
 # Exemplo: n = leiaInt('Digite um n: ')
 
 def leiaInt(text):
+    """
+    Permite apenas a inserção de um número natural (loop até ser informado) e exibe na tela o número digitado. 
+    :param text: O número.
+    :return: Um texto contendo o número informado.
+    """
     while True:
         number = input(text).strip()
         if number.isnumeric():
