@@ -4,6 +4,8 @@ def dobro(lista):
     return lista
 
 
+# main program
 valores = [7, 2, 5, 0, 4]
 print(valores)
+# chama a função dentro do print
 print(dobro(valores))
