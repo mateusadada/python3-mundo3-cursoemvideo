@@ -1,15 +1,14 @@
 # Crie um programa que tenha uma função chamada voto() que vai receber como parâmetro o ano de nascimento de uma
 # pessoa, retornando um valor literal indicando se uma pessoa tem voto NEGADO, OPCIONAL e OBRIGATÓRIO nas eleições.
 
-from datetime import date
-
-
 def vote(year_of_birth=0):
     """
     Returns a literal value indicating whether a person in voting denied, optional, or required, in addition to age.
     :param year_of_birth: The voter's year of birth.
     :return: Age and whether voting is denied, optional, or required.
     """
+    # economiza memória trazendo o import para dentro da função
+    from datetime import date
     age = date.today().year - year_of_birth
 
     if year_of_birth == 0:
