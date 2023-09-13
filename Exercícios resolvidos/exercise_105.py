@@ -13,7 +13,7 @@ def notas(*note, situation=False):
     e a situação (opcional).
     :param note: As notas.
     :param situation: True para mostrar (BOA, REGULAR ou RUIM) e False para não exibir (padrão).
-    :return: Um dicionário.
+    :return: Um dicionário com as informações.
     """
     data = {'quantidade_notas': len(note),
             'maior': max(note),
