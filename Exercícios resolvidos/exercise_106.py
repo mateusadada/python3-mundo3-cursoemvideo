@@ -4,38 +4,39 @@
 from time import sleep
 
 
-def lines(text):
+def lines(text, font=0, background=0):
     """
-    Imprime o texto com o símbolo '~' tanto em cima quanto embaixo.
+    Imprime o texto com o símbolo '~' tanto em cima quanto embaixo com cores.
     :param text: O texto.
+    :param font: O código da fonte.
+    :param background: O código do fundo.
     :return: Sem retorno.
     """
-    length = len(text)
-    print('~' * (length + 4))
+    length = len(text) + 4
+    print(f'\033[{font}:{background}m', end='')
+    print('~' * length)
     print(f'  {text}')
-    print('~' * (length + 4))
+    print('~' * length)
+    print('\033[m', end='')
 
 
 # main program
 print('Bem-vindo ao programa que exibe a ajuda (HELP) do Python!')
 
 while True:
-    print('\033[30:42m', end='')
-    lines('SISTEMA DE AJUDA PyHELP')
-    print('\033[m')
+    lines('SISTEMA DE AJUDA PyHELP', 30, 42)
 
     user = str(input('Função ou biblioteca (FIM p/ sair) > ')).strip()
     sleep(0.5)
 
-    if user in 'FIMfim':
-        print('\033[41m', end='')
-        lines('ATÉ LOGO!')
+    if user.upper() in 'FIM':
+        lines('ATÉ LOGO!', background=41)
         break
 
-    print('\033[30:45m', end='')
-    lines(f"Acessando o manual do comando '{user}'")
+    lines(f"Acessando o manual do comando '{user}'", 30, 45)
 
     sleep(0.5)
     print('\033[47m')
     help(user)
+    print('\033[m', end='')
     sleep(1)
