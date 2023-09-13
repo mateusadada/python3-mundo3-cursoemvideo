@@ -2,22 +2,21 @@
 # só que fazendo a validação para aceitar apenas um valor numérico.
 # Exemplo: n = leiaInt('Digite um n: ')
 
-def leiaInt(text):
+def leiaInt(number):
     """
-    Permite apenas a inserção de um número natural (loop até ser informado) e exibe na tela o número digitado. 
-    :param text: O número.
-    :return: Um texto contendo o número informado.
+    Permite apenas a inserção de um número natural.
+    :param number: O número.
+    :return: O número.
     """
     while True:
-        number = input(text).strip()
-        if number.isnumeric():
-            return number
+        number_function = input(number).strip()
+        if number_function.isnumeric():
+            return number_function
         else:
             print('\033[31mEntrada inválida! Digite um número natural válido.\033[m')
 
 
 # main program
 print('Bem-vindo ao programa que permite apenas valores numéricos!')
-
 numero = leiaInt('Digite um número: ')
-print(f'Você acabou de digitar o número \033[33m{numero}\033[m.')
+print(f'\nVocê acabou de digitar o número natural \033[33m{numero}\033[m.')
