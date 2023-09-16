@@ -1,13 +1,13 @@
-def fatorial(n):
-    f = 1
-    for c in range(1, n+1):
-        f *= c
-    return f
+def fatorial(numero):
+    fat = 1
+    for index in range(1, numero + 1):
+        fat *= index
+    return fat
 
 
-def dobro(n):
-    return n * 2
+def dobro(numero):
+    return numero * 2
 
 
-def triplo(n):
-    return n * 3
+def triplo(numero):
+    return numero * 3
