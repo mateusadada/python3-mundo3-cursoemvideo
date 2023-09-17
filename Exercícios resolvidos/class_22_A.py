@@ -3,7 +3,7 @@
 # Módulo: arquivo.py com conjunto de funções.
 # Pacote/biblioteca: conjunto de módulos; separados por assunto.
 
-# importar o pacote uteis
+import numeros
 
 num = int(input('Digite um valor: '))
 print(f'O fatorial de {num} é {numeros.fatorial(num)}')
