@@ -1,23 +1,31 @@
 # Modifique as funções criadas no desafio 107 para que elas aceitem um parâmetro a mais, informando se o valor
 # retornado por elas vai ser ou não formatado pela função moeda(), desenvolvida no desafio 108.
 
-def aumentar(price, percentage):
-    res = moeda(price * (1 + percentage / 100))
+def aumentar(price, percentage, formatting=False):
+    res = price * (1 + percentage / 100)
+    if formatting:
+        res = moeda(res)
     return res
 
 
-def diminuir(price, percentage):
-    res = moeda(price * (1 - percentage / 100))
+def diminuir(price, percentage, formatting=False):
+    res = price * (1 - percentage / 100)
+    if formatting:
+        res = moeda(res)
     return res
 
 
-def dobro(price):
-    res = moeda(price * 2)
+def dobro(price, formatting=False):
+    res = price * 2
+    if formatting:
+        res = moeda(res)
     return res
 
 
-def metade(price):
-    res = moeda(price / 2)
+def metade(price, formatting=False):
+    res = price / 2
+    if formatting:
+        res = moeda(res)
     return res
 
 
