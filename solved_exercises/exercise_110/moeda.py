@@ -75,11 +75,11 @@ def resumo(price, increase, decrease):
     :return: Sem retorno. É mostrado na tela.
     """
     print('-' * 30)
-    print('       RESUMO DO VALOR')
+    print('RESUMO DO VALOR'.center(30))
     print('-' * 30)
-    print(f'Preço analisado: {moeda(price):>12}')
-    print(f'Dobro: {dobro(price, True):>22}')
-    print(f'Metade: {metade(price, True):>21}')
-    print(f'{increase}% de aumento: {aumentar(price, increase, True):>13}')
-    print(f'{decrease}% de redução: {diminuir(price, decrease, True):>13}')
+    print(f'Preço analisado: \t{moeda(price)}')
+    print(f'Dobro: \t\t\t\t{dobro(price, True)}')
+    print(f'Metade: \t\t\t{metade(price, True)}')
+    print(f'{increase}% de aumento: \t{aumentar(price, increase, True)}')
+    print(f'{decrease}% de redução: \t{diminuir(price, decrease, True)}')
     print('-' * 30)
