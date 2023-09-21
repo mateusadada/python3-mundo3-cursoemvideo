@@ -58,12 +58,12 @@ def metade(price, formatting=False):
 
 def moeda(price, coin='R$'):
     """
-    Formata o preço na estrutura do real (R$) ou outro símbolo.
+    Formata o preço na estrutura do real (R$) ou outro símbolo, além da fonte na cor verde.
     :param price: O preço.
     :param coin: O símbolo da moeda (opcional e padrão: R$)
-    :return: O preço.
+    :return: O preço na fonte verde.
     """
-    return f'{coin} {price:.2f}'.replace('.', ',')
+    return f'\033[32m{coin} {price:.2f}\033[m'.replace('.', ',')
 
 
 def resumo(price, increase, decrease):
