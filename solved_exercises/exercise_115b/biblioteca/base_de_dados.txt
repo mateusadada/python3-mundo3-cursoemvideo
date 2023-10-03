@@ -1,0 +1,5 @@
+Mateus;22
+Ana;41
+Pedro;35
+Paulo;95
+Jose;55
