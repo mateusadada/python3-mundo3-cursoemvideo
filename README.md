@@ -1,6 +1,5 @@
 <h1 align="center">Python 3 – Mundo 3 [40 Horas] Curso em Vídeo</h1>
 <div align="center"><i>A complete list of solved exercises</i><br><br>
-
 <a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/stargazers"><img src="https://img.shields.io/github/stars/mateusadada/python3-Mundo3-CursoEmVideo" alt="Stars Badge"/></a>
 <a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/network/members"><img src="https://img.shields.io/github/forks/mateusadada/python3-Mundo3-CursoEmVideo" alt="Forks Badge"/></a>
 <a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/pulls"><img src="https://img.shields.io/github/issues-pr/mateusadada/python3-Mundo3-CursoEmVideo" alt="Pull Requests Badge"/></a>
