@@ -4,12 +4,13 @@
 <a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/network/members"><img src="https://img.shields.io/github/forks/mateusadada/python3-Mundo3-CursoEmVideo" alt="Forks Badge"/></a>
 <a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/pulls"><img src="https://img.shields.io/github/issues-pr/mateusadada/python3-Mundo3-CursoEmVideo" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/issues"><img src="https://img.shields.io/github/issues/mateusadada/python3-Mundo3-CursoEmVideo" alt="Issues Badge"/></a>
+<a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo"><img src="https://views.whatilearened.today/views/github/mateusadada/python3-Mundo3-CursoEmVideo.svg" alt="Views Badge"/></a>
+<br><a href="https://mateusadada.github.io/python3-Mundo3-CursoEmVideo" target="blank"><img src="https://img.shields.io/website?url=https%3A%2F%2Fmateusadada.github.io%2Fpython3-Mundo3-CursoEmVideo&logo=github" /></a>
 <a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/mateusadada/python3-Mundo3-CursoEmVideo?color=2b9348"></a>
 <a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mateusadada/python3-Mundo3-CursoEmVideo?color=2b9348" alt="License Badge"/></a>
-<br><a href="https://mateusadada.github.io/python3-Mundo3-CursoEmVideo" target="blank"><img src="https://img.shields.io/website?url=https%3A%2F%2Fmateusadada.github.io%2Fpython3-Mundo3-CursoEmVideo&logo=github" /></a>
 </div>
 
-## Table of contents
+## 📜 Table of contents
 
 - [Starting](#-starting)
 - [Features](#-features)
@@ -62,7 +63,4 @@ You can also see the list of all [collaborators](https://github.com/mateusadada/
 
 This project is under license MIT - see the file [LICENSE.md](https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/blob/main/LICENSE) for more details.
 
-<hr>
-<p align="center">
-Developed with ❤️ in Brazil 🇧🇷 
-</p>
+<hr><p align="center">Developed with ❤️ in Brazil 🇧🇷</p>
