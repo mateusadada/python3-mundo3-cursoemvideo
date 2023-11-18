@@ -7,7 +7,7 @@
 <a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo"><img src="https://views.whatilearened.today/views/github/mateusadada/python3-Mundo3-CursoEmVideo.svg" alt="Views Badge"/></a>
 <br><a href="https://mateusadada.github.io/python3-Mundo3-CursoEmVideo" target="blank"><img src="https://img.shields.io/website?url=https%3A%2F%2Fmateusadada.github.io%2Fpython3-Mundo3-CursoEmVideo&logo=github" /></a>
 <a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/mateusadada/python3-Mundo3-CursoEmVideo?color=2b9348"></a>
-<a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mateusadada/python3-Mundo3-CursoEmVideo?color=2b9348" alt="License Badge"/></a>
+<a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mateusadada/python3-Mundo3-CursoEmVideo?color=2b9348" alt="License Badge"/></a>
 </div>
 
 ## 📜 Table of contents
