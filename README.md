@@ -41,7 +41,7 @@ Used during the evolution of exercises:
 
 ## 📋 Prerequisites
 
-You need to have the Python language on your machine along with an IDE (Integrated Development Environment) or a website that can run the codes.
+You need to have the Python language on your machine along with an IDE (Integrated Development Environment) or a website that can run the codes. For example:
 
 * [IDE PyCharm](https://www.jetbrains.com/pycharm/)
 * [IDE Visual Studio Code](https://code.visualstudio.com/)
