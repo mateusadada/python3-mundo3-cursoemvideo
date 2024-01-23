@@ -15,28 +15,23 @@
 - [Starting](#-starting)
 - [Features](#-features)
 - [Prerequisites](#-prerequisites)
-- [Built with](#%EF%B8%8F-built-with)
-- [Author](#%EF%B8%8F-author)
+- [Built with](#️-built-with)
+- [Author](#️-author)
 - [License](#-license)
 
 ## 🚀 Starting
 
-This repository contains all the solved exercises from [Python 3 - Mundo 3](https://www.cursoemvideo.com/curso/python-3-mundo-3/) course taught by [Curso em Vídeo](https://www.cursoemvideo.com/). The exercises have more complex and challenging concepts. It was fundamental to improve my knowledge in this language and it also helped with my Bachelor's Degree in Information Systems at [UDESC](https://www.udesc.br/).
+This repository contains all the solved exercises from the [Python 3 - Mundo 3 course](https://www.cursoemvideo.com/curso/python-3-mundo-3/) taught by [Curso em Vídeo](https://www.cursoemvideo.com/). The exercises have more complex and challenging concepts. It was fundamental to improve my knowledge in this language and it also helped with my Bachelor's Degree in Information Systems at [UDESC](https://www.udesc.br/).
 
 ## 📚 Features
 
 Used during the evolution of exercises:
 
 - Tuples
-
 - Lists
-
 - Dictionaries
-
 - Functions
-
 - Modularization
-
 - Handling exceptions
 
 ## 📋 Prerequisites
