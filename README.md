@@ -27,12 +27,12 @@ This repository contains all the solved exercises from the [Python 3 - Mundo 3 c
 
 Used during the evolution of exercises:
 
-- Tuples
-- Lists
-- Dictionaries
-- Functions
-- Modularization
-- Handling exceptions
+- Tuples.
+- Lists.
+- Dictionaries.
+- Functions.
+- Modularization.
+- Handling exceptions.
 
 ## 📋 Prerequisites
 
@@ -46,7 +46,7 @@ You need to have the Python language on your machine along with an IDE (Integrat
 
 ## 🛠️ Built with
 
-* [Python 3](https://www.python.org/) - The programming language used
+* [Python 3](https://www.python.org/) - The programming language used.
 
 ## ✒️ Author
 
