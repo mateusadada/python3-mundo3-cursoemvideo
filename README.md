@@ -4,7 +4,7 @@
 <a href="https://github.com/mateusadada/python3-mundo3-cursoemvideo/network/members"><img src="https://img.shields.io/github/forks/mateusadada/python3-mundo3-cursoemvideo" alt="Forks Badge"/></a>
 <a href="https://github.com/mateusadada/python3-mundo3-cursoemvideo/pulls"><img src="https://img.shields.io/github/issues-pr/mateusadada/python3-mundo3-cursoemvideo" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/mateusadada/python3-mundo3-cursoemvideo/issues"><img src="https://img.shields.io/github/issues/mateusadada/python3-mundo3-cursoemvideo" alt="Issues Badge"/></a>
-<a href="https://github.com/python3-mundo3-cursoemvideo"><img src="https://komarev.com/ghpvc/?username=python3-mundo3-cursoemvideo&color=447ff7&label=views" alt="Views count Badge"/></a>
+<a href="https://github.com/mateusadada/python3-mundo3-cursoemvideo"><img src="https://komarev.com/ghpvc/?username=python3-mundo3-cursoemvideo&color=447ff7&label=views" alt="Views count Badge"/></a>
 <br><a href="https://mateusadada.github.io/python3-mundo3-cursoemvideo" target="blank"><img src="https://img.shields.io/website?url=https%3A%2F%2Fmateusadada.github.io%2Fpython3-mundo3-cursoemvideo&logo=github" /></a>
 <a href="https://github.com/mateusadada/python3-mundo3-cursoemvideo/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/mateusadada/python3-mundo3-cursoemvideo?color=2b9348"></a>
 <a href="https://github.com/mateusadada/python3-mundo3-cursoemvideo/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mateusadada/python3-mundo3-cursoemvideo?color=2b9348" alt="License Badge"/></a>
