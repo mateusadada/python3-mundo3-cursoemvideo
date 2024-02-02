@@ -1,13 +1,13 @@
 <h1 align="center">Python 3 – Mundo 3 [40 Hours] Curso em Vídeo</h1>
 <div align="center"><i>A complete list of solved exercises</i><br><br>
-<a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/stargazers"><img src="https://img.shields.io/github/stars/mateusadada/python3-Mundo3-CursoEmVideo" alt="Stars Badge"/></a>
-<a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/network/members"><img src="https://img.shields.io/github/forks/mateusadada/python3-Mundo3-CursoEmVideo" alt="Forks Badge"/></a>
-<a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/pulls"><img src="https://img.shields.io/github/issues-pr/mateusadada/python3-Mundo3-CursoEmVideo" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/issues"><img src="https://img.shields.io/github/issues/mateusadada/python3-Mundo3-CursoEmVideo" alt="Issues Badge"/></a>
-<a href="https://github.com/python3-Mundo3-CursoEmVideo"><img src="https://komarev.com/ghpvc/?username=python3-Mundo3-CursoEmVideo&color=447ff7&label=views" alt="Views count Badge"/></a>
-<br><a href="https://mateusadada.github.io/python3-Mundo3-CursoEmVideo" target="blank"><img src="https://img.shields.io/website?url=https%3A%2F%2Fmateusadada.github.io%2Fpython3-Mundo3-CursoEmVideo&logo=github" /></a>
-<a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/mateusadada/python3-Mundo3-CursoEmVideo?color=2b9348"></a>
-<a href="https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mateusadada/python3-Mundo3-CursoEmVideo?color=2b9348" alt="License Badge"/></a>
+<a href="https://github.com/mateusadada/python3-mundo3-cursoemvideo/stargazers"><img src="https://img.shields.io/github/stars/mateusadada/python3-mundo3-cursoemvideo" alt="Stars Badge"/></a>
+<a href="https://github.com/mateusadada/python3-mundo3-cursoemvideo/network/members"><img src="https://img.shields.io/github/forks/mateusadada/python3-mundo3-cursoemvideo" alt="Forks Badge"/></a>
+<a href="https://github.com/mateusadada/python3-mundo3-cursoemvideo/pulls"><img src="https://img.shields.io/github/issues-pr/mateusadada/python3-mundo3-cursoemvideo" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/mateusadada/python3-mundo3-cursoemvideo/issues"><img src="https://img.shields.io/github/issues/mateusadada/python3-mundo3-cursoemvideo" alt="Issues Badge"/></a>
+<a href="https://github.com/python3-mundo3-cursoemvideo"><img src="https://komarev.com/ghpvc/?username=python3-mundo3-cursoemvideo&color=447ff7&label=views" alt="Views count Badge"/></a>
+<br><a href="https://mateusadada.github.io/python3-mundo3-cursoemvideo" target="blank"><img src="https://img.shields.io/website?url=https%3A%2F%2Fmateusadada.github.io%2Fpython3-mundo3-cursoemvideo&logo=github" /></a>
+<a href="https://github.com/mateusadada/python3-mundo3-cursoemvideo/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/mateusadada/python3-mundo3-cursoemvideo?color=2b9348"></a>
+<a href="https://github.com/mateusadada/python3-mundo3-cursoemvideo/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mateusadada/python3-mundo3-cursoemvideo?color=2b9348" alt="License Badge"/></a>
 </div>
 
 ## 📜 Table of contents
@@ -52,10 +52,10 @@ You need to have the Python language on your machine along with an IDE (Integrat
 
 * **Mateus Adada** - *Developer and documentation* - [mateusadada](https://github.com/mateusadada)
 
-You can also see the list of all [collaborators](https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/graphs/contributors) who participated in this project.
+You can also see the list of all [collaborators](https://github.com/mateusadada/python3-mundo3-cursoemvideo/graphs/contributors) who participated in this project.
 
 ## 📄 License
 
-This project is under the license MIT. See the [LICENSE.md](https://github.com/mateusadada/python3-Mundo3-CursoEmVideo/blob/main/LICENSE) file for more details.
+This project is under the license MIT. See the [LICENSE.md](https://github.com/mateusadada/python3-mundo3-cursoemvideo/blob/main/LICENSE) file for more details.
 
 <hr><p align="center">Developed with ❤️ in Brazil 🇧🇷</p>
